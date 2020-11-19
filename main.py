@@ -14,9 +14,9 @@ while True:
 
 print('\n1 - Print the first and last list item')
 print('2 - Print the sum of all items')
-print('3 - Print amount of all list items')
-print('\nSelect an option by typing the character: ')
-option = int(input()
+     print('3 - Print amount of all list items')
+     print('\nSelect an option by typing the character: ')
+     option = int(input()
 
 if option == 1:
      module1.first_and_last_ite(userList)
