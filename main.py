@@ -6,7 +6,7 @@ print('Список создан...\n')
 
 userList = [] 
 while True:
-     listElem = input('Введите элемент списка ')
+     listElem = input('Введите элемент списка. Введите пробел, если хотите закончить создание списка ')
      if listElem == '' or listElem == ' ':
           break
      else:
