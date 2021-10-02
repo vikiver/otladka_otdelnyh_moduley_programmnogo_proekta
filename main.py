@@ -2,20 +2,20 @@ import module1
 import module2.py
 import module3
 
-print('List created...\n')
+print('Список создан...\n')
 
 userList = [] 
 while True:
-     listElem = input('Input list element ')
+     listElem = input('Введите элемент списка ')
      if listElem == '' or listElem == ' ':
           break
      else:
           userList.append(int(listElem))
 
-print('\n1 - Print the first and last list item')
-print('2 - Print the sum of all items')
-     print('3 - Print amount of all list items')
-     print('\nSelect an option by typing the character: ')
+print('\n1 - Вывести первый и последний элемент списка')
+print('2 - Вывести сумму всех элементов')
+     print('3 - вывести количество элементов')
+     print('\nВыберите операцию, которую хотите выполнить. Для этого введите номер операции: ')
      option = int(input()
 
 if option == 1:
