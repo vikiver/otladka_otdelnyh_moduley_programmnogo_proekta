@@ -1,6 +1,6 @@
-import module1
+import module1.py
 import module2.py
-import module3
+import module3.py
 
 print('Список создан...\n')
 
@@ -14,9 +14,9 @@ while True:
 
 print('\n1 - Вывести первый и последний элемент списка')
 print('2 - Вывести сумму всех элементов')
-     print('3 - вывести количество элементов')
-     print('\nВыберите операцию, которую хотите выполнить. Для этого введите номер операции: ')
-     option = int(input()
+print('3 - вывести количество элементов')
+print('\nВыберите операцию, которую хотите выполнить. Для этого введите номер операции: ')
+option = int(input()
 
 if option == 1:
      module1.first_and_last_ite(userList)
