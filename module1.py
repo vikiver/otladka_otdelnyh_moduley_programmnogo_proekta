@@ -1,6 +1,6 @@
 #Вывод первого и последнего элементов списка
 
-def first_and_last_item(inputList):
+def first_and_last_items(inputList):
     #Вставьте свой код здесь
     print('Первый элемент списка: ')
     print('Последний элемент списка: ')
