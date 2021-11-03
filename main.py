@@ -20,7 +20,7 @@ print('3 - вывести количество элементов')
 print('4 - вывести все чётные элементы')
 print('5 - вывести все нечётные элементы')
 print('\nВыберите операцию, которую хотите выполнить. Для этого введите номер операции: ')
-option = int(input()
+option = int(input())
 
 if option == 1:
      module1.first_and_last_items(userList)
