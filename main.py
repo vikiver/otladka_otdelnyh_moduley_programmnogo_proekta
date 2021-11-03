@@ -1,8 +1,8 @@
-import module1.py
-import module2.py
-import module3.py
-import module4.py
-import module5.py
+import module1
+import module2
+import module3
+import module4
+import module5
 
 print('Список создан...\n')
 
