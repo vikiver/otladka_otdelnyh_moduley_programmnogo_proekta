@@ -3,3 +3,5 @@
 def even_items(inputList):
     #Вставьте свой код здесь
     print('Чётные элементы списка: ')
+    return print('Чётные элементы списка: ', [x for x in inputList if x % 2 == 0])
+ 
