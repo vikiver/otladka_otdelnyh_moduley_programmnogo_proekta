@@ -8,11 +8,11 @@ print('Список создан...\n')
 
 userList = [] 
 while True:
-     listElem = int(input('Введите элемент списка. Введите пробел, если хотите закончить создание списка '))
+     listElem = input('Введите элемент списка. Введите пробел, если хотите закончить создание списка ')
      if listElem == '' or listElem == ' ':
           break
      else:
-          userList.append(listElem)
+          userList.append(int(listElem))
 
 print('\n1 - вывести первый и последний элемент списка')
 print('2 - вывести сумму всех элементов')
