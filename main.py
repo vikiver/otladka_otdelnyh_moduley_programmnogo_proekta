@@ -4,22 +4,22 @@ import module3
 import module4
 import module5
 
-print('Список создан...\n')
+print('List created...\n')
 
 userList = [] 
 while True:
-     listElem = input('Введите элемент списка. Введите пробел, если хотите закончить создание списка ')
+     listElem = input('Input list element ')
      if listElem == '' or listElem == ' ':
           break
      else:
           userList.append(int(listElem))
 
-print('\n1 - вывести первый и последний элемент списка')
-print('2 - вывести сумму всех элементов')
-print('3 - вывести количество элементов')
-print('4 - вывести все чётные элементы')
-print('5 - вывести все нечётные элементы')
-print('\nВыберите операцию, которую хотите выполнить. Для этого введите номер операции: ')
+print('\n1 - Print the first and last list item')
+print('2 - Print the lis_sum of all items')
+print('3 - Print amount of all list items')
+print('4 - Print even_items')
+print('5 - Print odd_items')
+print('\Select an option by typing the character: ')
 option = int(input())
 
 if option == 1:
