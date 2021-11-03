@@ -29,6 +29,6 @@ elif option == 2:
 elif option == 3:
      module3.amount_of_all_items(userList)
 elif option == 4:
-     module3.even_items(userList)
+     module4.even_items(userList)
 elif option == 5:
-     module3.odd_items(userList)
+     module5.odd_items(userList)
